@@ -1,12 +1,15 @@
 public class code6{
-    public static void main(String[] args ){
-        int a=10;
-        if (a%2==0){
-        System.out.println("even number");
+         public static double add(double x,double y){
+        return x+y;
     }
-    else{
-        System.out.println("odd number");
+    public static int add(int x,int y){
+        return x+y;
+    }
+    public static void main(String[] args) {
+        double res=add(10.2,20.4);
+     int res1=add(10,20);
+        System.out.println(res);
+        System.out.println(res1);
     }
 }
-}
-
+    
