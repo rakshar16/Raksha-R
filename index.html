@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raksha R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">RAKSHA<span>.R</span></div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Raksha R</span></h1>
+            <p>CS & Business Systems Student | Tech Enthusiast | Problem Solver</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="container">
+            <p>I am a 3rd year <strong>Computer Science and Business Systems</strong> student with a strong interest in technology, business thinking, and continuous learning. I enjoy exploring how software solutions can solve real-world business problems. I am passionate about learning new tools and collaborating to create meaningful solutions.</p>
+            <div class="objective">
+                <h3>Career Objective</h3>
+                <p>A motivated engineering student seeking opportunities to apply my technical knowledge and business understanding in real-world projects and collaborative environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Technical</h3>
+                <ul>
+                    <li>Java & Python</li>
+                    <li>MySQL / SQL</li>
+                    <li>HTML & CSS</li>
+                    <li>Logical Thinking</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Business</h3>
+                <ul>
+                    <li>Business Processes</li>
+                    <li>Analytical Thinking</li>
+                    <li>Team Collaboration</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Management Systems</h3>
+                <p>Student, Event, and Bank Simulation systems focusing on data integrity and user flow.</p>
+                <span class="tech">Java, MySQL</span>
+            </div>
+            <div class="project-card">
+                <h3>Responsive Portfolio</h3>
+                <p>A clean, professional personal website to showcase my growth and technical profile.</p>
+                <span class="tech">HTML, CSS, JS</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-dark">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-links">
+            <p>Email: <a href="mailto:rakshar1607@gmail.com">rakshar1607@gmail.com</a></p>
+            <div class="socials">
+                <a href="https://linkedin.com/in/raksha-r" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/raksha" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Raksha R. Built with passion & code.</p>
+    </footer>
+
+    <script>
+        // Animation Logic
+        ScrollReveal().reveal('.hero-content', { delay: 200, origin: 'top', distance: '50px' });
+        ScrollReveal().reveal('.section-title', { delay: 200, origin: 'left', distance: '30px' });
+        ScrollReveal().reveal('.skill-card', { delay: 300, interval: 200, origin: 'bottom', distance: '50px' });
+        ScrollReveal().reveal('.project-card', { delay: 300, interval: 200, scale: 0.85 });
+    </script>
+</body>
+</html>
